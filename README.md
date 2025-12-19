@@ -81,17 +81,26 @@ The system combines **LLM reasoning**, **Retrieval-Augmented Generation (RAG)** 
 
 ```
 app/
-├── main.py                # FastAPI entry point
+├── main.py
+├── prompt/               
 ├── api/
-│   └── analyze.py         # Skill gap analysis endpoint
+│   └── analyze.py         
 ├── services/
-│   ├── llm_service.py     # LLM inference + recommendations
-│   ├── rag_service.py     # Hybrid retrieval logic
+│   ├── llm_service.py     
+│   ├── rag_service.py     
 │   ├── skill_extractor.py
-│   └── skill_library.py   # Curated skill recommendations
+│   ├── gap_analyzer.py
+│   └── recommander.py  
 ├── models/
+│   ├── schemas.py 
 ├── data/
+│   ├── user_profile.txt 
 └── tests/
+    ├── test_analyze.py
+    ├── test_extractor.py
+    ├── test_llm.py
+    └── test_rag.py
+
 ```
 
 ---
