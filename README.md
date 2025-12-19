@@ -1,6 +1,7 @@
 ## 📊 Skill Gap Analysis System (SG-Balancer)
 
 **Project Category** - *Generative AI*
+
 **STATUS:** 🟡 **ONGOING** — *Project Timeline: December 2025 - March 2026*
 
 ---
