@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+
+torch
+transformers
+sentence-transformers
+accelerate
+
+chromadb
+
+pydantic
