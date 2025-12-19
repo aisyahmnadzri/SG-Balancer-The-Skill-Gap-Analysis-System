@@ -96,12 +96,12 @@ app/
 
 ### 🔧 Current Features
 
-✅ FastAPI backend running
-✅ Job description skill extraction
-✅ User skill retrieval via RAG
-✅ Skill gap comparison
-✅ Recommendation system (LLM + curated fallback)
-✅ CPU-friendly (no GPU required)
+- ✅ FastAPI backend running
+- ✅ Job description skill extraction
+- ✅ User skill retrieval via RAG
+- ✅ Skill gap comparison
+- ✅ Recommendation system (LLM + curated fallback)
+- ✅ CPU-friendly (no GPU required)
 
 ---
 
